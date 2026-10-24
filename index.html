@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Training">
+<meta name="format-detection" content="telephone=no">
+<title>Training · Jahresplan Boxen</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><div class="top-inner"><div class="brand">Training</div><div id="topsub" class="topsub"></div></div></header>
+<main id="view"></main>
+<nav class="tabs" id="tabs">
+  <button data-tab="heute" class="on"><span class="ico">◉</span>Heute</button>
+  <button data-tab="log"><span class="ico">✎</span>Eintragen</button>
+  <button data-tab="stats"><span class="ico">▲</span>Fortschritt</button>
+  <button data-tab="cp"><span class="ico">✓</span>Checkpoints</button>
+  <button data-tab="data"><span class="ico">⋯</span>Daten</button>
+</nav>
+<div id="toast" class="toast"></div>
+<script src="plan.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
